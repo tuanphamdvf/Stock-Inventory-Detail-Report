@@ -53,79 +53,61 @@
                 <table class="table">
                     <thead>
                         <tr style=" height: 20px;  background: #ccc;">
-                            <th class="text-center" rowspan="2"
-                                style="padding: 10px !important; vertical-align: inherit;font-size: 18px;" scope="col">
+                            <th class="text-center" rowspan="2" style="padding: 10px !important; vertical-align: inherit;font-size: 18px;" scope="col">
                                 NO
                             </th>
-                            <th class="text-center" rowspan="2"
-                                style="padding: 10px !important; vertical-align: inherit;font-size: 18px;" scope="col">
+                            <th class="text-center" rowspan="2" style="padding: 10px !important; vertical-align: inherit;font-size: 18px;" scope="col">
                                 Name
                             </th>
-                            <th class="text-center" rowspan="2"
-                                style="padding: 10px !important; vertical-align: inherit;font-size: 18px;" scope="col">
+                            <th class="text-center" rowspan="2" style="padding: 10px !important; vertical-align: inherit;font-size: 18px;" scope="col">
                                 Code
                             </th>
-                            <th class="text-center" rowspan="2"
-                                style="padding: 10px !important; vertical-align: inherit;font-size: 18px;" scope="col">
+                            <th class="text-center" rowspan="2" style="padding: 10px !important; vertical-align: inherit;font-size: 18px;" scope="col">
                                 Barcode
                             </th>
-                            <th class="text-center" rowspan="2"
-                                style="padding: 10px !important; vertical-align: inherit;font-size: 18px;" scope="col">
+                            <th class="text-center" rowspan="2" style="padding: 10px !important; vertical-align: inherit;font-size: 18px;" scope="col">
                                 Unit Price
                             </th>
-                            <th class="text-center" colspan="2"
-                                style="padding: 10px !important; vertical-align: inherit;font-size: 18px;" scope="col">
+                            <th class="text-center" colspan="2" style="padding: 10px !important; vertical-align: inherit;font-size: 18px;" scope="col">
                                 Beginning inventory
                             </th>
-                            <th class="text-center" colspan="6"
-                                style="padding: 10px !important; vertical-align: inherit;font-size: 18px;" scope="col">
+                            <th class="text-center" colspan="6" style="padding: 10px !important; vertical-align: inherit;font-size: 18px;" scope="col">
                                 Inventory transactions
                             </th>
-                            <th class="text-center" colspan="2"
-                                style="padding: 10px !important; vertical-align: inherit;font-size: 18px;" scope="col">
+                            <th class="text-center" colspan="2" style="padding: 10px !important; vertical-align: inherit;font-size: 18px;" scope="col">
                                 Ending inventory
                             </th>
                         </tr>
                         <tr style=" height: 20px;  background: #ccc;">
-                            <th class="text-center"
-                                style="padding: 10px !important; vertical-align: inherit;font-size: 18px;" scope="col">
+                            <th class="text-center" style="padding: 10px !important; vertical-align: inherit;font-size: 18px;" scope="col">
                                 Quantity
                             </th>
-                            <th class="text-center"
-                                style="padding: 10px !important; vertical-align: inherit;font-size: 18px;" scope="col">
+                            <th class="text-center" style="padding: 10px !important; vertical-align: inherit;font-size: 18px;" scope="col">
                                 Value
                             </th>
 
-                            <th class="text-center"
-                                style="padding: 10px !important; vertical-align: inherit;font-size: 18px;" scope="col">
+                            <th class="text-center" style="padding: 10px !important; vertical-align: inherit;font-size: 18px;" scope="col">
                                 Import
                             </th>
-                            <th class="text-center"
-                                style="padding: 10px !important; vertical-align: inherit;font-size: 18px;" scope="col">
+                            <th class="text-center" style="padding: 10px !important; vertical-align: inherit;font-size: 18px;" scope="col">
                                 Value Import
                             </th>
-                            <th class="text-center"
-                                style="padding: 10px !important; vertical-align: inherit;font-size: 18px;" scope="col">
+                            <th class="text-center" style="padding: 10px !important; vertical-align: inherit;font-size: 18px;" scope="col">
                                 Export
                             </th>
-                            <th class="text-center"
-                                style="padding: 10px !important; vertical-align: inherit;font-size: 18px;" scope="col">
+                            <th class="text-center" style="padding: 10px !important; vertical-align: inherit;font-size: 18px;" scope="col">
                                 Value Export
                             </th>
-                            <th class="text-center"
-                                style="padding: 10px !important; vertical-align: inherit;font-size: 18px;" scope="col">
+                            <th class="text-center" style="padding: 10px !important; vertical-align: inherit;font-size: 18px;" scope="col">
                                 Quantity
                             </th>
-                            <th class="text-center"
-                                style="padding: 10px !important; vertical-align: inherit;font-size: 18px;" scope="col">
+                            <th class="text-center" style="padding: 10px !important; vertical-align: inherit;font-size: 18px;" scope="col">
                                 Value
                             </th>
-                            <th class="text-center"
-                                style="padding: 10px !important; vertical-align: inherit;font-size: 18px;" scope="col">
+                            <th class="text-center" style="padding: 10px !important; vertical-align: inherit;font-size: 18px;" scope="col">
                                 Closing stock
                             </th>
-                            <th class="text-center"
-                                style="padding: 10px !important; vertical-align: inherit;font-size: 18px;" scope="col">
+                            <th class="text-center" style="padding: 10px !important; vertical-align: inherit;font-size: 18px;" scope="col">
                                 Value
                             </th>
 
@@ -135,7 +117,7 @@
                     <tbody>
                         <t t-if="list_san_pham">
                             <t t-foreach="list_san_pham" t-as="i">
-                                <tr style=" height: 20px;  background: #ccc;">
+                                <tr style=" height: 20px; ">
                                     <td style="text-align:center;padding: 10px;font-weight: 600;">
                                         <t t-esc="i_index +1"></t>
                                     </td>
@@ -146,8 +128,7 @@
                                         <t t-esc="i['masp']"/>
                                     </td>
                                     <td style="text-align:center;padding: 10px;font-weight: 400; width: 100px;">
-                                        <t t-esc="i['barcode']"
-                                           t-options='{"widget": "barcode","width": 150,"height":60,  "precision": 0}'/>
+                                        <t t-esc="i['barcode']" t-options='{"widget": "barcode","width": 150,"height":60,  "precision": 0}'/>
                                     </td>
                                     <td style="text-align:center;padding: 10px;font-weight: 600;">
                                         <t t-esc="i['giavon']"/>
